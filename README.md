@@ -6,7 +6,7 @@ Use viminfo file relative to current working directory.
 With Vim-plug (or your prefered way) :
 ```VimL
 call plug#begin()
-Plug 'maxboisvert/vim-local-history
+Plug 'maxboisvert/vim-local-history'
 call plug#end()
 ```
 
