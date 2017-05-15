@@ -9,6 +9,16 @@ call plug#begin()
 Plug 'maxboisvert/vim-local-history
 call plug#end()
 
+## Tips
+
+This plugin is useful with this mapping :
+
+```
+nnoremap <Leader>p :e **/*
+```
+
+After opening a file with this command, you can do `:e <Up><Up>` to access the current project's history. This is like a MRU.
+
 ## License
 
 GPL3
